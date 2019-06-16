@@ -43,7 +43,7 @@ public class GrapplingHook : MonoBehaviour
 
             this.GetComponent<Rigidbody>().useGravity = false;
 
-            if (distanceToHook < 2)
+            if (distanceToHook < 1)
                 ReturnHook();
         }
         else
